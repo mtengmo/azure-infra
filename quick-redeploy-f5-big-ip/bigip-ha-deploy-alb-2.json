@@ -106,7 +106,7 @@
               },
               "protocol": "Tcp",
               "frontendPort": 443,
-              "backendPort": 443,
+              "backendPort": 6442,
               "idleTimeoutInMinutes": 15,
               "enableFloatingIP": false
             }
@@ -153,7 +153,7 @@
           {
             "properties": {
               "protocol": "Tcp",
-              "port": 443,
+              "port": 6442,
               "intervalInSeconds": 15,
               "numberOfProbes": 2
             },
