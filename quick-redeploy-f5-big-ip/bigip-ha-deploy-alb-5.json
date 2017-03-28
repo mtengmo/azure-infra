@@ -28,8 +28,7 @@
         "displayName": "AzureLoadBalancer"
       },
       "dependsOn": [
-        "[concat('Microsoft.Network/publicIPAddresses/', (parameters('publicIPID')), '5')]"
-      ],
+              ],
       "location": "[parameters('location')]",
       "name": "[parameters('loadBalancerName')]",
       "properties": {
