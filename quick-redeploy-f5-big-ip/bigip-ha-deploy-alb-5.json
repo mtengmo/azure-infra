@@ -28,7 +28,7 @@
         "displayName": "AzureLoadBalancer"
       },
       "dependsOn": [
-        "[concat(parameters('dnsNameForPublicIP'), copyIndex(1))]"
+        "[concat(parameters('dnsNameForPublicIP'), '5')]"
       ],
       "location": "[parameters('location')]",
       "name": "[parameters('loadBalancerName')]",
